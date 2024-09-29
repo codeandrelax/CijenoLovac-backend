@@ -1,0 +1,482 @@
+App 4000624 output: Traceback (most recent call last):
+App 4000624 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4000624 output:     app_module = load_app()
+App 4000624 output:  
+App 4000624 output:         
+App 4000624 output:        
+App 4000624 output:  ^^^^^^
+App 4000624 output: ^^^^
+App 4000624 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4000624 output:     
+App 4000624 output: spec.loader.exec_module(app_module)
+App 4000624 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4000624 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4000624 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4000624 output:     wsgi = imp.load_source('wsgi', 'app.py')
+App 4000624 output:  
+App 4000624 output:        
+App 4000624 output:    ^^^^
+App 4000624 output: ^^^^^^^
+App 4000624 output: ^^^^^^^
+App 4000624 output: ^^^^^^^
+App 4000624 output: ^^^^^^^
+App 4000624 output: ^
+App 4000624 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4000624 output:     
+App 4000624 output: module = _load(spec)
+App 4000624 output:       
+App 4000624 output:        
+App 4000624 output: ^^^^^^^
+App 4000624 output: ^^^^
+App 4000624 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4000624 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4000624 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4000624 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4000624 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4000624 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4000624 output:   File "app.py", line 66
+App 4000624 output:     elif path == '/login':
+App 4000624 output:     ^^
+App 4000624 output: ^^
+App 4000624 output: SyntaxError: invalid syntax
+App 4002559 output: Traceback (most recent call last):
+App 4002559 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4002559 output:     app_module = load_app()
+App 4002559 output:                  ^^^^^^^^^^
+App 4002559 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4002559 output:     spec.loader.exec_module(app_module)
+App 4002559 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4002559 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4002559 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4002559 output:     
+App 4002559 output: wsgi = imp.load_source('wsgi', 'app.py')
+App 4002559 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4002559 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4002559 output:     
+App 4002559 output: module = _load(spec)
+App 4002559 output:    
+App 4002559 output:        
+App 4002559 output:    ^^^^
+App 4002559 output: ^^^^^^^
+App 4002559 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4002559 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4002559 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4002559 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4002559 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4002559 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4002559 output:   File "app.py", line 66
+App 4002559 output:     elif path == '/login':
+App 4002559 output:     ^^^^
+App 4002559 output: SyntaxError: invalid syntax
+App 4007905 output: Traceback (most recent call last):
+App 4007905 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4007905 output:     app_module = load_app()
+App 4007905 output:  
+App 4007905 output:          
+App 4007905 output:        
+App 4007905 output: ^^^^^^
+App 4007905 output: ^^^^
+App 4007905 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4007905 output:     
+App 4007905 output: spec.loader.exec_module(app_module)
+App 4007905 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4007905 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4007905 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4007905 output:     
+App 4007905 output: wsgi = imp.load_source('wsgi', 'app.py')
+App 4007905 output:  
+App 4007905 output:       
+App 4007905 output:     ^^^
+App 4007905 output: ^^^^^^^
+App 4007905 output: ^^^^^^^
+App 4007905 output: ^^^^^^^
+App 4007905 output: ^^^^^^^^
+App 4007905 output: ^
+App 4007905 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4007905 output:     
+App 4007905 output: module = _load(spec)
+App 4007905 output:    
+App 4007905 output:        
+App 4007905 output:    ^^^^^
+App 4007905 output: ^^^^^^
+App 4007905 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4007905 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4007905 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4007905 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4007905 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4007905 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4007905 output:   File "app.py", line 66
+App 4007905 output:     elif path == '/login':
+App 4007905 output:     ^^^^
+App 4007905 output: SyntaxError: invalid syntax
+App 4010473 output: Traceback (most recent call last):
+App 4010473 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4010473 output:     app_module = load_app()
+App 4010473 output:                  ^^^^^^^^^^
+App 4010473 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4010473 output:     spec.loader.exec_module(app_module)
+App 4010473 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4010473 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4010473 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4010473 output:     wsgi = imp.load_source('wsgi', 'app.py')
+App 4010473 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4010473 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4010473 output:     module = _load(spec)
+App 4010473 output:         
+App 4010473 output:      ^^^^^^^^^^^
+App 4010473 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4010473 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4010473 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4010473 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4010473 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4010473 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4010473 output:   File "app.py", line 68
+App 4010473 output:     elif path == '/login':
+App 4010473 output:     ^^^^
+App 4010473 output: SyntaxError: invalid syntax
+App 4010972 output: Traceback (most recent call last):
+App 4010972 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4010972 output:     app_module = load_app()
+App 4010972 output:                  ^^^^^^^^^^
+App 4010972 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4010972 output:     spec.loader.exec_module(app_module)
+App 4010972 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4010972 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4010972 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4010972 output:     
+App 4010972 output: wsgi = imp.load_source('wsgi', 'app.py')
+App 4010972 output:        
+App 4010972 output:     ^^^
+App 4010972 output: ^^^^^^^^
+App 4010972 output: ^^^^^^^
+App 4010972 output: ^^^^^^^
+App 4010972 output: ^^^^^^^
+App 4010972 output: ^
+App 4010972 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4010972 output:     module = _load(spec)
+App 4010972 output:  
+App 4010972 output:          
+App 4010972 output:    ^^^^
+App 4010972 output: ^^^^^^^
+App 4010972 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4010972 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4010972 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4010972 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4010972 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4010972 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4010972 output:   File "app.py", line 68
+App 4010972 output:     elif path == '/login':
+App 4010972 output:     ^^^^
+App 4010972 output: SyntaxError: invalid syntax
+App 4014270 output: Traceback (most recent call last):
+App 4014270 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4014270 output:     app_module = load_app()
+App 4014270 output:                  ^^^^^^^^^^
+App 4014270 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4014270 output:     spec.loader.exec_module(app_module)
+App 4014270 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4014270 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4014270 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4014270 output:     wsgi = imp.load_source('wsgi', 'app.py')
+App 4014270 output:            ^^
+App 4014270 output: ^^^^^^^^^^^
+App 4014270 output: ^^^^^^^^^^^^^
+App 4014270 output: ^^^^^^^
+App 4014270 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4014270 output:     module = _load(spec)
+App 4014270 output:         
+App 4014270 output:      ^^^^^^^^^
+App 4014270 output: ^^
+App 4014270 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4014270 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4014270 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4014270 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4014270 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4014270 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4014270 output:   File "app.py", line 69
+App 4014270 output:     elif path == '/login':
+App 4014270 output:     ^^^^
+App 4014270 output: SyntaxError: invalid syntax
+App 4016700 output: Traceback (most recent call last):
+App 4016700 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4016700 output:     app_module = load_app()
+App 4016700 output:                  ^^^^^^^^^^
+App 4016700 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4016700 output:     spec.loader.exec_module(app_module)
+App 4016700 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4016700 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4016700 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4016700 output:     
+App 4016700 output: wsgi = imp.load_source('wsgi', 'app.py')
+App 4016700 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4016700 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4016700 output:     module = _load(spec)
+App 4016700 output:  
+App 4016700 output:           
+App 4016700 output:   ^^^^^
+App 4016700 output: ^^^^^^
+App 4016700 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4016700 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4016700 output:   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+App 4016700 output:   File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+App 4016700 output:   File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+App 4016700 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4016700 output:   File "app.py", line 69
+App 4016700 output:     elif path == '/login':
+App 4016700 output:     ^^^^
+App 4016700 output: SyntaxError: invalid syntax
+App 4042979 output: [ pid=4042979, time=2024-09-29 16:03:07,821 ]: WSGI application raised an exception!
+App 4042979 output: Traceback (most recent call last):
+App 4042979 output:   File "app.py", line 76, in application
+App 4042979 output:     response_body = user_login(body)  # Pass the body directly to the function
+App 4042979 output:                     ^^^^^^^^^^
+App 4042979 output: NameError: name 'user_login' is not defined
+App 4042979 output: During handling of the above exception, another exception occurred:
+App 4042979 output: Traceback (most recent call last):
+App 4042979 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4042979 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4042979 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4042979 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4042979 output:     result = self.app(env, start_response)
+App 4042979 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4042979 output:   File "app.py", line 81, in application
+App 4042979 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4042979 output:               ^^^^^^^^^^^^^^
+App 4042979 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4045652 output: [ pid=4045652, time=2024-09-29 16:03:59,209 ]: WSGI application raised an exception!
+App 4045652 output: Traceback (most recent call last):
+App 4045652 output:   File "app.py", line 76, in application
+App 4045652 output:     response_body = user_login(body)  # Pass the body directly to the function
+App 4045652 output:                     ^^^^^^^^^^
+App 4045652 output: NameError: name 'user_login' is not defined
+App 4045652 output: During handling of the above exception, another exception occurred:
+App 4045652 output: Traceback (most recent call last):
+App 4045652 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4045652 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4045652 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4045652 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4045652 output:     result = self.app(env, start_response)
+App 4045652 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4045652 output:   File "app.py", line 81, in application
+App 4045652 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4045652 output:               ^^^^^^^^^^^^^^
+App 4045652 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4045652 output: [ pid=4045652, time=2024-09-29 16:04:01,766 ]: WSGI application raised an exception!
+App 4045652 output: Traceback (most recent call last):
+App 4045652 output:   File "app.py", line 76, in application
+App 4045652 output:     response_body = user_login(body)  # Pass the body directly to the function
+App 4045652 output:                     ^^^^^^^^^^
+App 4045652 output: NameError: name 'user_login' is not defined
+App 4045652 output: During handling of the above exception, another exception occurred:
+App 4045652 output: Traceback (most recent call last):
+App 4045652 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4045652 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4045652 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4045652 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4045652 output:     result = self.app(env, start_response)
+App 4045652 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4045652 output:   File "app.py", line 81, in application
+App 4045652 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4045652 output:               ^^^^^^^^^^^^^^
+App 4045652 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4047050 output: [ pid=4047050, time=2024-09-29 16:04:15,567 ]: WSGI application raised an exception!
+App 4047050 output: Traceback (most recent call last):
+App 4047050 output:   File "app.py", line 76, in application
+App 4047050 output:     response_body = user_login(body)  # Pass the body directly to the function
+App 4047050 output:                     ^^^^^^^^^^
+App 4047050 output: NameError: name 'user_login' is not defined
+App 4047050 output: During handling of the above exception, another exception occurred:
+App 4047050 output: Traceback (most recent call last):
+App 4047050 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4047050 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4047050 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4047050 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4047050 output:     result = self.app(env, start_response)
+App 4047050 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4047050 output:   File "app.py", line 81, in application
+App 4047050 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4047050 output:               ^^^^^^^^^^^^^^
+App 4047050 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4047050 output: [ pid=4047050, time=2024-09-29 16:06:02,738 ]: WSGI application raised an exception!
+App 4047050 output: Traceback (most recent call last):
+App 4047050 output:   File "app.py", line 76, in application
+App 4047050 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4047050 output:                     ^^^^^^^^^^
+App 4047050 output: NameError: name 'user_login' is not defined
+App 4047050 output: During handling of the above exception, another exception occurred:
+App 4047050 output: Traceback (most recent call last):
+App 4047050 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4047050 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4047050 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4047050 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4047050 output:     result = self.app(env, start_response)
+App 4047050 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4047050 output:   File "app.py", line 81, in application
+App 4047050 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4047050 output:               ^^^^^^^^^^^^^^
+App 4047050 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4047050 output: [ pid=4047050, time=2024-09-29 16:06:06,041 ]: WSGI application raised an exception!
+App 4047050 output: Traceback (most recent call last):
+App 4047050 output:   File "app.py", line 76, in application
+App 4047050 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4047050 output:                     ^^^^^^^^^^
+App 4047050 output: NameError: name 'user_login' is not defined
+App 4047050 output: During handling of the above exception, another exception occurred:
+App 4047050 output: Traceback (most recent call last):
+App 4047050 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4047050 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4047050 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4047050 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4047050 output:     result = self.app(env, start_response)
+App 4047050 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4047050 output:   File "app.py", line 81, in application
+App 4047050 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4047050 output:               ^^^^^^^^^^^^^^
+App 4047050 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4057671 output: [ pid=4057671, time=2024-09-29 16:07:34,660 ]: WSGI application raised an exception!
+App 4057671 output: Traceback (most recent call last):
+App 4057671 output:   File "app.py", line 76, in application
+App 4057671 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4057671 output:                                  ^^^^^^^^^^
+App 4057671 output: NameError: name 'user_login' is not defined
+App 4057671 output: During handling of the above exception, another exception occurred:
+App 4057671 output: Traceback (most recent call last):
+App 4057671 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4057671 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4057671 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4057671 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4057671 output:     result = self.app(env, start_response)
+App 4057671 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4057671 output:   File "app.py", line 81, in application
+App 4057671 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4057671 output:               ^^^^^^^^^^^^^^
+App 4057671 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4118840 output: [ pid=4118840, time=2024-09-29 16:29:51,091 ]: WSGI application raised an exception!
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "app.py", line 77, in application
+App 4118840 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4118840 output:                                  ^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/user_login.py", line 60, in user_login
+App 4118840 output:     cursor.close()
+App 4118840 output:     ^^^^^^
+App 4118840 output: NameError: name 'cursor' is not defined
+App 4118840 output: During handling of the above exception, another exception occurred:
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4118840 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4118840 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4118840 output:     result = self.app(env, start_response)
+App 4118840 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "app.py", line 82, in application
+App 4118840 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4118840 output:               ^^^^^^^^^^^^^^
+App 4118840 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4118840 output: [ pid=4118840, time=2024-09-29 16:29:54,663 ]: WSGI application raised an exception!
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "app.py", line 77, in application
+App 4118840 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4118840 output:                                  ^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/user_login.py", line 60, in user_login
+App 4118840 output:     cursor.close()
+App 4118840 output:     ^^^^^^
+App 4118840 output: NameError: name 'cursor' is not defined
+App 4118840 output: During handling of the above exception, another exception occurred:
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4118840 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4118840 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4118840 output:     result = self.app(env, start_response)
+App 4118840 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "app.py", line 82, in application
+App 4118840 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4118840 output:               ^^^^^^^^^^^^^^
+App 4118840 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4118840 output: [ pid=4118840, time=2024-09-29 16:31:06,460 ]: WSGI application raised an exception!
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "app.py", line 77, in application
+App 4118840 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4118840 output:                                  ^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/user_login.py", line 60, in user_login
+App 4118840 output:     return json.dumps({"error": str(e)}), 500
+App 4118840 output:         ^^^^^^
+App 4118840 output: NameError: name 'cursor' is not defined
+App 4118840 output: During handling of the above exception, another exception occurred:
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4118840 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4118840 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4118840 output:     result = self.app(env, start_response)
+App 4118840 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "app.py", line 82, in application
+App 4118840 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4118840 output:               ^^^^^^^^^^^^^^
+App 4118840 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4118840 output: [ pid=4118840, time=2024-09-29 16:31:08,657 ]: WSGI application raised an exception!
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "app.py", line 77, in application
+App 4118840 output:     response_body, status_code = user_login(body)  # Get both the body and status code
+App 4118840 output:                                  ^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/user_login.py", line 60, in user_login
+App 4118840 output:     return json.dumps({"error": str(e)}), 500
+App 4118840 output:         ^^^^^^
+App 4118840 output: NameError: name 'cursor' is not defined
+App 4118840 output: During handling of the above exception, another exception occurred:
+App 4118840 output: Traceback (most recent call last):
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 4118840 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4118840 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 4118840 output:     result = self.app(env, start_response)
+App 4118840 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 4118840 output:   File "app.py", line 82, in application
+App 4118840 output:     with open(ERROR_LOG_FILE, 'a') as log_file:
+App 4118840 output:               ^^^^^^^^^^^^^^
+App 4118840 output: NameError: name 'ERROR_LOG_FILE' is not defined
+App 4149004 output: Traceback (most recent call last):
+App 4149004 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+App 4149004 output:     app_module = load_app()
+App 4149004 output:                  ^^^^^^^^^^
+App 4149004 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+App 4149004 output:     spec.loader.exec_module(app_module)
+App 4149004 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4149004 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4149004 output:   File "/home/indigoin/flask.cijenolovac.indigoingenium.ba/passenger_wsgi.py", line 8, in <module>
+App 4149004 output:     wsgi = imp.load_source('wsgi', 'app.py')
+App 4149004 output:        
+App 4149004 output:     ^^^^
+App 4149004 output: ^^^^^^^
+App 4149004 output: ^^^^^^^^^^
+App 4149004 output: ^^^^^^^^^^^^
+App 4149004 output:   File "/opt/alt/python311/lib64/python3.11/imp.py", line 172, in load_source
+App 4149004 output:     
+App 4149004 output: module = _load(spec)
+App 4149004 output:  
+App 4149004 output:       
+App 4149004 output:      
+App 4149004 output:  ^^^^
+App 4149004 output: ^^^^^^
+App 4149004 output: ^
+App 4149004 output:   File "<frozen importlib._bootstrap>", line 721, in _load
+App 4149004 output:   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+App 4149004 output:   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+App 4149004 output:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+App 4149004 output:   File "app.py", line 10, in <module>
+App 4149004 output:     
+App 4149004 output: from user_signup import user_signup
+App 4149004 output: ImportError
+App 4149004 output: : cannot import name 'user_signup' from 'user_signup' (/home/indigoin/flask.cijenolovac.indigoingenium.ba/user_signup.py)
+App 699036 output: [ pid=699036, time=2024-09-29 21:25:01,270 ]: WSGI application raised an exception!
+App 699036 output: Traceback (most recent call last):
+App 699036 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 216, in main_loop
+App 699036 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 699036 output:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 699036 output:   File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 348, in process_request
+App 699036 output:     result = self.app(env, start_response)
+App 699036 output:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 699036 output:   File "app.py", line 112, in application
+App 699036 output:     return [response_body.encode('utf-8')]
+App 699036 output:             ^^^^^^^^^^^^^^^^^^^^
+App 699036 output: AttributeError: 'dict' object has no attribute 'encode'
