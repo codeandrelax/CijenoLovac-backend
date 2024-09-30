@@ -1,0 +1,17 @@
+{
+    "name": "cijeno-lovac-app",
+    "version": "1.0.0",
+    "description": "A Node.js application with Express",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Damjan Prerad",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.19.2",
+      "mariadb": "^3.3.1",
+      "dotenv": "^16.4.5"
+    }
+  }
+  

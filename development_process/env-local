@@ -1,0 +1,5 @@
+DB_HOST=neutron.global.ba
+PORT=8000
+DB_USER=indigoin_cijenolovac_admin
+DB_PASS=Pijanista123!
+DB_NAME=indigoin_cijenolovac
